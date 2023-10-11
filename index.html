@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЛР2 Аліни Атаманенко</title>
+
+  <style>
+	TABLE{
+		background: linear-gradient(#c1d4fb, #6699ff);
+		box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+	}
+  </style>
+   
+
+</head>
+<body>
+<FORM method="post" action="bar.php">
+	<TABLE border="1" style="border-radius: 5px;">
+	 <TR background="360deg, blue, red">
+	  <TH>Pizza shop</TH>
+	  <TH>My order</TH>
+	 </TR>
+	 <TR>
+	  <TD>Name</TD>
+	  <TD>
+	   <input type="text" name="name" size="25" required placeholder="Enter your name" >
+	  </TD>
+	 </TR>
+	 <TR>
+	  <TD>Pizza topping</TD>
+	  <TD>
+	   <input type="radio" name="Pizza toppin" value="male"> Supreme
+	   <br>
+	   <input type="radio" name="Pizza toppin" value="female" checked> Vegetarian
+	   <br>
+	   <input type="radio" name="Pizza toppin" value="female"> Hawaiian
+	  </TD>
+	 </TR>
+	 <TR>
+	  <TD>Pizza sauce</TD>
+	  <TD>
+	   <select name="Pizza sauce">
+		<option>Tomato</option>
+		<option>Cheese</option>
+		<option selected>Creamy</option>
+		<option>other</option>
+	   </select>
+	  </TD>
+	 </TR>
+	 <TR>
+	  <TD>Optional extras</TD>
+	  <TD>
+	   <input type="checkbox" name="height" value="1">Extra cheese</input>
+	   <br>
+	   <input type="checkbox" name="weight" value="1">Gluten free base</input>
+	  </TD>
+	 </TR>
+	 <TR>
+	  <TD colspan="2">Deelivery instructions:<br>
+	   <textarea name="athletic" cols="50" rows="4" required placeholder="Type here"></textarea>
+	  </TD>
+	 </TR>
+	 <TR>
+	  <TD colspan="2" align="center" box-shadow="10px 10px 10px red">
+	   <input type="submit" value="Send my order">
+	  </TD>
+	 </TR>
+	</TABLE>
+   </FORM>
+</body>
+</html>
